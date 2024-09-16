@@ -80,7 +80,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "http://fmfiletolink-32f172629478.herokuapp.com/")
+URL = environ.get("URL", "http://fmfiletolink-32f172629478.herokuapp.com")
 
 
 # Don't Remove Credit Tg - @VJ_Botz
