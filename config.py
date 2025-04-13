@@ -24,7 +24,7 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://telegra.ph/file/07f0e583519b4c687548b.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1511468725').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "KALPATARU_FILE_STORE_BOT") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "HP_FILESHAREBOT") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -46,7 +46,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1001965914571"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002505290516"))
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
@@ -64,7 +64,7 @@ SHORTLINK_URL = environ.get("SHORTLINK_URL", "") # shortlink domain without http
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "") # how to open link 
 
 # Website Info:
-WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', True)) # Set True or False
+WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', False)) # Set True or False
 
 # If Website Url Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 WEBSITE_URL = environ.get("WEBSITE_URL", "https://hpraj271.blogspot.com/2024/07/hpraj.html") # For More Information Check Video On Yt - @Tech_VJ
